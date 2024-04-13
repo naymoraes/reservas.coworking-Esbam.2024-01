@@ -1,0 +1,294 @@
+<!DOCTYPE html> 
+<html lang="pt-br"> 
+<head>
+  <meta charset="UTF-8" /> 
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="stylesheet" href="../coworking.css">
+  <link rel="stylesheet" href="../coworking.js">
+  <title>RESERVAS PARA ESPAÇOS DE COWORKING - Página 3</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" 
+  integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.9.0/font/bootstrap-icons.css" rel="stylesheet">
+</head>
+<body>
+
+  <!-- Conteúdo da página Album -->
+  <header data-bs-theme="dark">
+    <nav class="navbar navbar-expand-md navbar-dark fixed-top bg-dark">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="#"> <img height="50px" 
+          src="C:\Users\claud\OneDrive\Área de Trabalho\Coworking\images\cw-comp6-h.png" alt=""></a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" 
+        data-bs-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+              <li class="nav-item dropdown">
+              <button class="nav-link btn btn-link" onclick="window.location.href='../pagina1.coworking.html'">Home</button>
+            </li>
+            <li class="nav-item">
+              <button class="nav-link btn btn-link" onclick="window.location.href='../pagina2.coworking.html'">Planos</button>
+            </li>
+            <li class="nav-item">
+              <button class="nav-link active btn btn-link" aria-current="page" 
+              onclick="window.location.href='../pagina3.coworking.html'">Album</button>
+            </li>
+          </ul>
+          <form class="d-flex" role="search">
+            <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+            <button class="btn btn-outline-success" type="submit">Search</button>
+          </form>
+        </div>
+      </div>
+    </nav>
+  </div>
+
+  <main>
+
+    <section class="py-5 text-center container">
+      <div class="row py-lg-5">
+        <div class="col-lg-6 col-md-8 mx-auto">
+          <h1 class="fw-light">Álbum de Coworking</h1>
+          <p class="lead text-start">Confira algumas imagens de espaços de coworking. Clique em "Ver" para ampliar a imagem.</p>
+          <p>
+            <a href="#" class="btn btn-primary my-2">Entrar em Contato</a>
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <div id="contactFormModal" class="modal fade" tabindex="-1">
+      <div class="modal-dialog">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h5 class="modal-title">Formulário de Contato</h5>
+            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+          </div>
+          <div class="modal-body">
+            <form>
+              <div class="mb-3">
+                <label for="name" class="form-label">Nome</label>
+                <input type="text" class="form-control" id="name" required>
+              </div>
+              <div class="mb-3">
+                <label for="email" class="form-label">Email</label>
+                <input type="email" class="form-control" id="email" required>
+              </div>
+              <div class="mb-3">
+                <label for="message" class="form-label">Mensagem</label>
+                <textarea class="form-control" id="message" rows="3" required></textarea>
+              </div>
+              <button type="submit" class="btn btn-primary">Enviar</button>
+            </form>
+          </div>
+        </div>
+      </div>
+    </div>
+  
+    <div class="album py-5 bg-body-tertiary">
+      <div class="container">
+  
+        <div class="row row-cols-1 row-cols-sm-2 row-cols-md-3 g-3">
+          <div class="col">
+            <div class="card shadow-sm">
+              <img src="C:\Users\claud\OneDrive\Área de Trabalho\Coworking\images\Captura de tela 2024-03-29 232514.png"
+               alt="Coworking 1">
+              <div class="card-body">
+                <p class="card-text">Ao realizar treinamentos em espaços de coworking, os participantes têm a oportunidade de interagir com 
+                  profissionais de diversas áreas, facilitando o networking e a troca de experiências.
+                   Isso pode enriquecer ainda mais a experiência de aprendizado.</p>
+                <div class="d-flex justify-content-between align-items-center">
+                  <div class="btn-group">
+                    <button type="button" class="btn btn-sm btn-outline-secondary">Ver</button>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col">
+            <div class="card shadow-sm">
+              <img src="C:\Users\claud\OneDrive\Área de Trabalho\Coworking\images\Captura de tela 2024-03-29 232537.png"
+               alt="Coworking 2">
+              <div class="card-body">
+                <p class="card-text">Muitos espaços de coworking oferecem infraestrutura completa para treinamentos, incluindo equipamentos 
+                  audiovisuais, acesso à internet de alta velocidade, 
+                  material de escritório e serviços de catering, facilitando a realização dos eventos</p>
+                <div class="d-flex justify-content-between align-items-center">
+                  <div class="btn-group">
+                    <button type="button" class="btn btn-sm btn-outline-secondary">Ver</button>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col">
+            <div class="card shadow-sm">
+              <img src="C:\Users\claud\OneDrive\Área de Trabalho\Coworking\images\Captura de tela 2024-03-29 232548.png"
+               alt="Coworking 3">
+              <div class="card-body">
+                <p class="card-text">As salas de treinamento em espaços de coworking geralmente são configuráveis
+                   de acordo com as necessidades específicas do treinamento. 
+                   Elas podem ser adaptadas para diferentes tamanhos de grupos e formatos de treinamento.</p>
+                <div class="d-flex justify-content-between align-items-center">
+                  <div class="btn-group">
+                    <button type="button" class="btn btn-sm btn-outline-secondary">Ver</button>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+   </main>        
+        <div class="container mt-5">
+          <h1 class="text-center mb-4">Recursos de Espaços de Coworking</h1>
+          <div class="row row-cols-1 row-cols-md-3 g-4">
+              <!-- Ícone e descrição de cada recurso -->
+              <div class="col">
+                  <div class="card h-100">
+                      <div class="card-body text-center">
+                          <i class="bi bi-wifi icon"></i>
+                          <h5 class="card-title">Wi-Fi de Alta Velocidade</h5>
+                          <p class="card-text">Conexão Wi-Fi rápida e estável para manter você conectado.</p>
+                      </div>
+                  </div>
+              </div>
+              <div class="col">
+                  <div class="card h-100">
+                      <div class="card-body text-center">
+                          <i class="bi bi-shield-lock icon"></i>
+                          <h5 class="card-title">Segurança 24/7</h5>
+                          <p class="card-text">Sistema de segurança e monitoramento para proteger seus pertences.</p>
+                      </div>
+                  </div>
+              </div>
+              <div class="col">
+                  <div class="card h-100">
+                      <div class="card-body text-center">
+                          <i class="bi bi-sofa icon"></i>
+                          <h5 class="card-title">Área de Conforto</h5>
+                          <p class="card-text">Espaços relaxantes e confortáveis para uma pausa tranquila.</p>
+               </div>
+             </div>
+          </div>
+          </div>
+      </div>
+    </div>
+  </div>
+</div>
+</div>
+    <div class="container mt-5">
+      <h1 class="text-center mb-4">Conheça Todos os Nossos Serviços</h1>
+      <div class="row row-cols-1 row-cols-md-3 g-4">
+          <!-- Ícone e descrição de cada serviço -->
+          <div class="col">
+              <div class="card h-100">
+                  <div class="card-body text-center">
+                      <i class="bi bi-building icon"></i>
+                      <h5 class="card-title">Salas Privativas</h5>
+                      <p class="card-text">Espaços privativos para você e sua equipe trabalharem com privacidade e conforto.</p>
+                  </div>
+              </div>
+          </div>
+          <div class="col">
+              <div class="card h-100">
+                  <div class="card-body text-center">
+                      <i class="bi bi-people icon"></i>
+                      <h5 class="card-title">Salas de Reunião</h5>
+                      <p class="card-text">Ambientes equipados para realizar reuniões com clientes e colegas de equipe.</p>
+                  </div>
+              </div>
+          </div>
+          <div class="col">
+              <div class="card h-100">
+                  <div class="card-body text-center">
+                      <i class="bi bi-badge-cc icon"></i>
+                      <h5 class="card-title">Salas de Treinamento</h5>
+                      <p class="card-text">Espaços amplos e equipados para treinamentos e workshops.</p>
+                  </div>
+              </div>
+          </div>
+          <div class="col">
+              <div class="card h-100">
+                  <div class="card-body text-center">
+                      <i class="bi bi-people icon"></i>
+                      <h5 class="card-title">Escritório Compartilhado</h5>
+                      <p class="card-text">Ambiente de trabalho colaborativo para networking e 
+                        interação entre profissionais.</p>
+                  </div>
+              </div>
+          </div>
+          <div class="col">
+              <div class="card h-100">
+                  <div class="card-body text-center">
+                      <i class="bi bi-telephone icon"></i>
+                      <h5 class="card-title">Escritório Virtual</h5>
+                      <p class="card-text">Serviços de escritório remoto, incluindo atendimento
+                         telefônico e endereço comercial.</p>
+                  </div>
+              </div>
+          </div>
+          <div class="col">
+              <div class="card h-100">
+                  <div class="card-body text-center">
+                      <i class="bi bi-calendar-event icon"></i>
+                      <h5 class="card-title">Espaço para Eventos</h5>
+                      <p class="card-text">Ambientes flexíveis para sediar eventos corporativos, 
+                        workshops e conferências.</p>
+                  </div>
+              </div>
+          </div>
+      </div>
+  </div>
+  <div class="container mt-5">
+    <h1 class="text-center mb-4">Garanta o seu espaço!</h1>
+    <div class="row row-cols-1 row-cols-md-3 g-4">
+    </div>
+  </div>
+  
+  <footer class="container-fluid bg-dark">
+    <div class="container-xxl pt-5">
+        <div class="row">
+            <div class="col-4">
+                <img height="300px" src="C:\Users\claud\OneDrive\Área de Trabalho\Coworking\images\loho2.png" alt="" />
+            </div>
+            <div class="col-4 text-white">
+                <h4 class="text-center">RESERVAS PARA ESPAÇOS DE COWORKING</h4>
+                <ul type="none">
+                    <li><i class="bi bi-arrow-right-short"></i> SALAS PRIVATIVAS</li>
+                    <li><i class="bi bi-arrow-right-short"></i> SALAS DE TREINAMENTO</li>
+                    <li><i class="bi bi-arrow-right-short"></i> SALAS DE REUNIÃO</li>
+                    <li><i class="bi bi-arrow-right-short"></i> SALAS DE EVENTOS</li>
+                </ul>
+            </div>
+            <div class="col-4 text-white">
+                <h4 class="text-center">Contact us</h4>
+                <ul type="none">
+                    <li><i class="bi bi-geo-alt-fill"></i> Los Angeles, California</li>
+                    <li><i class="bi bi-telephone"></i> +1 965 982340321</li>
+                    <li><i class="bi bi-envelope-at"></i> res.coworking@gmail.com</li>
+                    <li class="mt-2">
+       <a class="btn btn-outline-light rounded-circle" href="https://www.instagram.com/res.coworking" target="_blank"><i class="bi bi-instagram"></i></a>
+       <a class="btn btn-outline-light rounded-circle" href="https://twitter.com/res.coworking" target="_blank"><i class="bi bi-twitter"></i></a>
+      <a class="btn btn-outline-light rounded-circle" href="https://www.facebook.com/res.coworking" target="_blank"><i class="bi bi-facebook"></i></a>
+    <a class="btn btn-outline-light rounded-circle" href="https://www.linkedin.com/company/res-coworking" target="_blank"><i class="bi bi-linkedin"></i></a>
+  <a class="btn btn-outline-light rounded-circle" href="https://www.youtube.com/channel/res.coworking" target="_blank"><i class="bi bi-youtube"></i></a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </div>
+</footer>
+
+<!-- não apagar por gentileza -->
+<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js" 
+integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+ integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+<script src="/coworking.js"></script>
+</body>
+</html>
+
+
